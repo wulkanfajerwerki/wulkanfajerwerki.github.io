@@ -64,27 +64,25 @@ font-family: Roboto;
 font-weight: 100;
 font-size: 26px;
 }
-#owner {
-color: #e0dfde;
-font-family: Roboto;
-font-weight: 100;
-font-size: 14px;
-float:left;
-margin:0auto;
-position: relative;
+#blok {
+	background-color: #2a2a2a;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 20px;
+	letter-spacing: 50px;
+	line-height: 12px;
+	overflow: hidden;
+	width: 100%;
+	color: #e0dfde;
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 14px;
 }
-#logo {
-color: #e0dfde;
-float:center;
-margin:0auto;
-position: relative;
-}
-#design {
-color: #e0dfde;
-font-family: Roboto;
-font-weight: 100;
-font-size: 14px;
-float:right;
-margin:0auto;
-position: relative;
+.element {
+	display: inline-block;
+	letter-spacing: normal;
+	font-size: normal;
+	white-space: normal;
+	text-align: normal;
+	vertical-align: middle;
 }
